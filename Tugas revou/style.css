@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navigaton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% auto;
+    height: 100%;
+    margin-bottom: 3px;
+  }
+  .navbar {
+    display: flex;
+    margin: 13px;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .navbar ul {
+    border-radius: 6px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .navbar li {
+    border: 1px groove black;
+    list-style-type: none;
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+.headerTittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subTittle{
+    color: gray;
+    line-height: 0,1;
+    font-size: 20px;
+}
+.left{
+    flex: 60%;
+    padding: 0px;
+    background-color: white;
+}
+
+.right{
+    flex: 40%;
+    background-color: #E7F6D0;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.left .testi{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.left img{
+    padding: 30px;
+}
+
+.custprofile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.left .cust-img{
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline;
+    margin: 20px;
+}
+
+.custname, .custdata{
+    display:inline;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.contactus{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+}
+
+label{
+    font-size: 20px;
+}
+
+.strength-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10%;
+    background-color: white;
+    background-clip: content-box;
+}
+
+.strength{
+    flex: 100%;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+
+.box-strength ul{
+    list-style-type:none;
+    position: relative;
+}
+
+.box-strength ul li{
+    padding: 20px;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.box-strength ul:hover li{
+    opacity: 0.2;
+}
+
+
+.box-strength ul li span{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: #85976C;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box-strength ul li:hover span{
+    background: #fff;
+    color: #85976C;
+}
+
+#headerOurPackage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 13, 29);
+    background-color: rgb(189, 189, 189) ;
+}
+
+#package-container{
+    display: grid;
+    grid-template-columns: repeat(3, 70vh);
+}
+
+#boxTitle {
+    display: grid;
+}
+
+.garis {
+    border-bottom: 1px solid black;
+}
+
+.callUS {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
